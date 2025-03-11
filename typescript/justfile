@@ -1,7 +1,12 @@
 install:
   npm install
 
-test:
-  npm run test -- --watch
+test *FLAGS:
+  npm run test -- {{FLAGS}}
+test-watch:
+  just test --watch
 
 start: test
+
+refactor:
+  watchexec -- git gamble --refactor

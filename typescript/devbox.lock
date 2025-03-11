@@ -197,6 +197,54 @@
           "store_path": "/nix/store/26sdnhgk7jw7aidxx9qr3j5yv9hyfz8v-nodejs-23.9.0"
         }
       }
+    },
+    "watchexec@latest": {
+      "last_modified": "2025-02-24T11:23:12Z",
+      "resolved": "github:NixOS/nixpkgs/d9b69c3ec2a2e2e971c534065bdd53374bd68b97#watchexec",
+      "source": "devbox-search",
+      "version": "2.3.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kvidw4dsr0jpha80bbind9i0xzq1bzxg-watchexec-2.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kvidw4dsr0jpha80bbind9i0xzq1bzxg-watchexec-2.3.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gjxkklpdzf8kfl089al0pfrm7j2v130q-watchexec-2.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gjxkklpdzf8kfl089al0pfrm7j2v130q-watchexec-2.3.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/z9xgmbhxv5jcs4gy9bq78x33gaxd360z-watchexec-2.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/z9xgmbhxv5jcs4gy9bq78x33gaxd360z-watchexec-2.3.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/aqcpksxx3kwq1mvdzs9hwrch6mz6bb20-watchexec-2.3.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/aqcpksxx3kwq1mvdzs9hwrch6mz6bb20-watchexec-2.3.0"
+        }
+      }
     }
   }
 }
