@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "git-gamble@latest": {
+      "last_modified": "2025-02-07T11:26:36Z",
+      "resolved": "github:NixOS/nixpkgs/d98abf5cf5914e5e4e9d57205e3af55ca90ffc1d#git-gamble",
+      "source": "devbox-search",
+      "version": "2.9.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6jra4w0963ag15j5n926s0y3i46jy60v-git-gamble-2.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6jra4w0963ag15j5n926s0y3i46jy60v-git-gamble-2.9.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1xp8zr64fbajwhv64zfhmbrp42p4nn4n-git-gamble-2.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1xp8zr64fbajwhv64zfhmbrp42p4nn4n-git-gamble-2.9.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cs4pf58d2pznmvyv7z9kgz7wna4fhafd-git-gamble-2.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cs4pf58d2pznmvyv7z9kgz7wna4fhafd-git-gamble-2.9.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3sn0lahfdp3wc7f5a0ir80fkd8xrwzy4-git-gamble-2.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3sn0lahfdp3wc7f5a0ir80fkd8xrwzy4-git-gamble-2.9.0"
+        }
+      }
+    },
     "just@latest": {
       "last_modified": "2025-02-20T02:45:56Z",
       "resolved": "github:NixOS/nixpkgs/dad564433178067be1fbdfcce23b546254b6d641#just",

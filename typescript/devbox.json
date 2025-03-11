@@ -1,6 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
-  "packages": ["nodejs@latest", "just@latest"],
+  "packages": [
+    "nodejs@latest",
+    "just@latest",
+    "git-gamble@latest"
+  ],
   "shell": {
     "init_hook": ["just install"],
     "scripts": {
